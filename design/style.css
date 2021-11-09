@@ -1,9 +1,37 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; */
-
+/* https://colorhunt.co/palette/22577a38a3a557cc9980ed99 
+https://colorhunt.co/palette/0204382841841f8ea300eaff/?ref=tab */
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
 }
-p {
+h2 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+}
+
+.hero {
+  padding-top: 158px;
+  background-color: #22577a;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn-hero {
+  background-color: white;
+  color: #22577a;
+  margin: 20px;
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 18px 30px;
+  border-radius: 50px;
+}
+.highlight {
+  background-color: rgb(56, 163, 165, 0.5);
+  padding: 10px;
 }
