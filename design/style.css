@@ -2,6 +2,7 @@
 font-family: 'Roboto', sans-serif; */
 /* https://colorhunt.co/palette/22577a38a3a557cc9980ed99 
 https://colorhunt.co/palette/0204382841841f8ea300eaff/?ref=tab */
+/* do custome variables*/
 h1 {
   font-size: 24px;
   line-height: 28px;
@@ -45,7 +46,13 @@ p {
   padding: 18px 30px;
   border-radius: 50px;
 }
-.highlight {
-  background-color: rgb(56, 163, 165);
+.highlights {
+  background-color: rgba(3, 8, 37);
   padding: 10px;
+}
+.col-4 {
+  margin: 3px;
+  background: rgb(232, 233, 240, 0.2);
+  max-width: 200px;
+  max-height: 200px;
 }
