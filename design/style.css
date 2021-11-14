@@ -53,6 +53,22 @@ p {
 .col-4 {
   margin: 3px;
   background: rgb(232, 233, 240, 0.2);
-  max-width: 200px;
-  max-height: 200px;
+}
+img {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  p {
+    display: none;
+  }
+  .hero-title {
+    padding-top: 76px;
+  }
 }
