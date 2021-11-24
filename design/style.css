@@ -107,6 +107,10 @@ img {
 }
 .contact-details {
   text-align: center;
+  padding: 20px;
+}
+.gallery {
+  color: #ffffff;
 }
 @media (max-width: 600px) {
   h1 {
