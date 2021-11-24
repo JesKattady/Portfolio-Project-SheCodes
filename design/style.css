@@ -3,10 +3,18 @@ font-family: 'Roboto', sans-serif; */
 /* https://colorhunt.co/palette/22577a38a3a557cc9980ed99 
 https://colorhunt.co/palette/0204382841841f8ea300eaff/?ref=tab */
 /* do custome variables*/
+:root {
+  --primary-color: rgba(3, 8, 37);
+  --secondary-color: rgb(56, 163, 165);
+  --tetiary-color: rgb(234, 130, 75);
+}
+body {
+  background-color: var(--primary-color);
+}
 h1 {
   font-size: 24px;
   line-height: 28px;
-  background-color: rgb(56, 163, 165);
+  background-color: var(--secondary-color);
   opacity: 50%;
 }
 h2 {
@@ -16,9 +24,29 @@ h2 {
   background-color: rgba(3, 8, 37, 0.5);
   opacity: 70%;
 }
+h3 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 75px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+h4 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  color: var(--tetiary-color);
+}
 p {
-  background-color: rgb(56, 163, 165);
+  background-color: var(--secondary-color);
   opacity: 50%;
+}
+img {
+  padding-bottom: 10px;
 }
 
 .hero {
@@ -36,8 +64,8 @@ p {
   text-transform: uppercase;
 }
 .btn-hero {
-  border: 2.5px solid rgba(3, 8, 37, 0.5);
-  color: rgba(3, 8, 37);
+  border: 2.5px solid rgba(255, 255, 255, 0.5);
+  color: white;
   margin: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -46,13 +74,31 @@ p {
   padding: 18px 30px;
   border-radius: 50px;
 }
+.contact {
+  display: flex;
+  justify-content: center;
+}
 .highlights {
-  background-color: rgba(3, 8, 37);
+  background-color: var(--primary-color);
   padding: 10px;
 }
-
-img {
-  padding-bottom: 10px;
+.about-summary {
+  padding: 52px;
+}
+.about-img {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.about-info {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.social-icons {
+  color: var(--tetiary-color);
+  padding: 4px;
 }
 
 @media (max-width: 600px) {
