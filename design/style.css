@@ -11,8 +11,9 @@ https://colorhunt.co/palette/d8e3e751c4d3126e82132c33*/
 body {
   background-color: var(--primary-color);
 }
-nav {
+header {
   color: white;
+  background-color: rgb(18, 110, 130, 0.2);
 }
 nav li {
   display: inline;
@@ -81,6 +82,7 @@ img {
   padding-bottom: 10px;
 }
 .logo a {
+  text-decoration: none;
   font-family: "Comforter Brush", cursive;
   color: white;
   font-size: 45px;
@@ -148,6 +150,16 @@ img {
 }
 .gallery {
   color: #ffffff;
+}
+footer {
+  background-color: var(--one-color);
+}
+footer i {
+  color: #ffffff;
+  padding-top: 20px;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 12px;
 }
 @media (max-width: 900px) {
   h1 {
