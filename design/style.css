@@ -11,6 +11,33 @@ https://colorhunt.co/palette/d8e3e751c4d3126e82132c33*/
 body {
   background-color: var(--primary-color);
 }
+nav {
+  color: white;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100px;
+  font-size: 14px;
+  padding: 5px;
+}
+nav ul {
+  padding-top: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+nav a:hover {
+  color: var(--one-color);
+  transition: all 100ms ease-in-out;
+}
+nav li.active a {
+  color: var(--tetiary-color);
+}
+
 h1 {
   font-size: 24px;
   line-height: 28px;
@@ -53,6 +80,11 @@ p {
 img {
   padding-bottom: 10px;
 }
+.logo a {
+  font-family: "Comforter Brush", cursive;
+  color: white;
+  font-size: 45px;
+}
 
 .hero {
   background-color: rgba(3, 8, 37, 0.5);
@@ -78,6 +110,10 @@ img {
   line-height: 17px;
   padding: 18px 30px;
   border-radius: 50px;
+}
+.btn-hero:hover {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 .contact {
   display: flex;
