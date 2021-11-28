@@ -13,7 +13,9 @@ body {
 }
 header {
   color: white;
-  background-color: rgb(18, 110, 130, 0.2);
+  background-color: rgb(18, 110, 130, 0.4);
+  position: fixed;
+  width: 100%;
 }
 nav li {
   display: inline;
@@ -132,7 +134,7 @@ img {
   display: block;
   margin: 0 auto;
   border-radius: 20%;
-  padding: 10px;
+  padding: 80px 10px 10px;
 }
 .about-info {
   font-family: Roboto;
@@ -153,10 +155,11 @@ img {
 }
 footer {
   background-color: var(--one-color);
+  margin-top: 20px;
 }
 footer i {
   color: #ffffff;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 10px;
   text-align: center;
   font-size: 12px;
@@ -181,7 +184,7 @@ footer i {
     padding: 10px 40px 0px 40px;
   }
   .about-img {
-    max-width: 250px;
+    max-width: 150px;
     display: block;
     margin: 0 auto;
     border-radius: 70% 10% 70%;
