@@ -148,10 +148,11 @@ img {
 }
 .contact-details {
   text-align: center;
-  padding: 20px;
+  padding: 85px 20px 20px;
 }
 .gallery {
   color: #ffffff;
+  padding: 80px 10px 10px;
 }
 footer {
   background-color: var(--one-color);
