@@ -123,12 +123,15 @@ img {
   display: flex;
   justify-content: center;
 }
+
 .highlights {
+  display: flex;
+  justify-content: space-between;
   background-color: var(--primary-color);
   padding: 10px;
 }
 .about-summary {
-  padding: 52px;
+  padding: 82px;
 }
 .about-img {
   display: block;
